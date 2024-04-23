@@ -172,7 +172,8 @@ html,body{
 }
 .third-card{
     align-items: center;
-    margin-left: 9%;
+    margin-left: 5%;
+    margin-bottom: 3%;
     display: flex;
     gap: 40px;
 }
@@ -226,7 +227,7 @@ html,body{
 .fourth{
     height: 90%;
     width: 100%;
-    background-image: url(image/bgimage.jpg) ;
+    background-image: url(image/bgimage.jpg), linear-gradient(rgba(0,0,0.75,0.75),rgba(0,0.75,0,0.75)) ;
     background-position: center;
     background-size: cover;
     /* padding-top: 6%; */
@@ -250,46 +251,62 @@ html,body{
 .four-text h2{
     color: #fff;
     font-weight: bolder;
-    font-size: 36px;
+    font-size: 32px;
     text-align: center;
     margin-top: 30%;
 }
 .four-text p{
-    color: #fff;
+    color: rgb(246, 242, 242);
     margin-top: 10%;
-    line-height: 25px;
-    font-size: 18px;
+    line-height: 20px;
+    font-size: 16px;
     text-align: center;
 }
 .four-content{
     display: flex;
     gap: 30px;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 3%;
+    margin-top: 7%;
 }
 .four-img{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     background-image: url(image/feedback-one.webp);
     background-position: center;
     background-size: cover;
-    margin: 10% 0 10% 35%;
+    margin: 10% 0 6% 35%;
 }
 .four-second--img{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     background-image: url(image/feedback-two.webp);
     background-position: center;
     background-size: cover;
-    margin: 10% 0 10% 35%;
+    margin: 10% 0 6% 35%;
 }
 /* .four-style{
     background-color: royalblue;
 } */
 .card-text{
-    font-size: 16px;
-    color: #e5e2e2;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 14px;
+
+}
+.card-body p{
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
 }
     /* fourth section end  */
